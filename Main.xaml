@@ -83,7 +83,7 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="897.2,1220" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="947.6,1220" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -111,7 +111,7 @@
           <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
             <InArgument x:TypeArguments="x:String">Chicago</InArgument>
             <InArgument x:TypeArguments="x:String">New York</InArgument>
-            <InArgument x:TypeArguments="x:String">San Francisco</InArgument>
+            <InArgument x:TypeArguments="x:String">San Diego</InArgument>
           </scg:List>
         </uasc:BuildCollection.NextItems>
       </uasc:BuildCollection>
@@ -121,6 +121,7 @@
             <InArgument x:TypeArguments="x:String">Mancherster</InArgument>
             <InArgument x:TypeArguments="x:String">Bristol</InArgument>
             <InArgument x:TypeArguments="x:String">Edinburgh</InArgument>
+            <InArgument x:TypeArguments="x:String">Cambridge</InArgument>
           </scg:List>
         </uasc:BuildCollection.NextItems>
       </uasc:BuildCollection>
@@ -131,8 +132,8 @@
           </scg:List>
         </uasc:AppendItemToCollection.Items>
       </uasc:AppendItemToCollection>
-      <uasc:RemoveFromCollection x:TypeArguments="x:String" Index="{x:Null}" Collection="[Cities(&quot;UK&quot;)]" DisplayName="Remove From Collection" sap:VirtualizedContainerService.HintSize="416,251.2" sap2010:WorkflowViewState.IdRef="RemoveFromCollection`1_1" Item="London" RemoveAllElements="False" Result="[Cities(&quot;UK&quot;)]" />
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;US Cities: &quot; + String.Join(&quot;, &quot;, Cities(&quot;US&quot;)) + vbLf + &quot;and&quot; + vbLf + &quot;UK Cities: &quot; + String.Join(&quot;, &quot;, Cities(&quot;UK&quot;))]" />
+      <uasc:RemoveFromCollection x:TypeArguments="x:String" Index="{x:Null}" Collection="[Cities(&quot;UK&quot;)]" DisplayName="Remove From Collection" sap:VirtualizedContainerService.HintSize="616,251.2" sap2010:WorkflowViewState.IdRef="RemoveFromCollection`1_1" Item="London" RemoveAllElements="False" Result="[Cities(&quot;UK&quot;)]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="616,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;US Cities: &quot; + String.Join(&quot;, &quot;, Cities(&quot;US&quot;)) + vbLf + &quot;and&quot; + vbLf + &quot;UK Cities: &quot; + String.Join(&quot;, &quot;, Cities(&quot;UK&quot;))]" />
     </Sequence>
   </Sequence>
 </Activity>
