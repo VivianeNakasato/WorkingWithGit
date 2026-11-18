@@ -83,13 +83,13 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1054,1220" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="897.2,1220" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="449.6,1196.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="649.6,1196.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="scg:Dictionary(x:String, scg:List(x:String))" Name="Cities" />
       </Sequence.Variables>
@@ -98,7 +98,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Assign DisplayName="Create New Dictionary" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign DisplayName="Create New Dictionary" sap:VirtualizedContainerService.HintSize="616,174.4" sap2010:WorkflowViewState.IdRef="Assign_1">
         <Assign.To>
           <OutArgument x:TypeArguments="scg:Dictionary(x:String, scg:List(x:String))">[Cities]</OutArgument>
         </Assign.To>
@@ -106,16 +106,16 @@
           <InArgument x:TypeArguments="scg:Dictionary(x:String, scg:List(x:String))">[New dictionary(of String, List(Of String))]</InArgument>
         </Assign.Value>
       </Assign>
-      <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" DisplayName="Build Collection Cities US" FirstItem="New York" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="BuildCollection`1_1" Result="[Cities(&quot;US&quot;)]">
+      <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" DisplayName="Build Collection Cities US" FirstItem="New York" sap:VirtualizedContainerService.HintSize="616,174.4" sap2010:WorkflowViewState.IdRef="BuildCollection`1_1" Result="[Cities(&quot;US&quot;)]">
         <uasc:BuildCollection.NextItems>
           <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
             <InArgument x:TypeArguments="x:String">Chicago</InArgument>
-            <InArgument x:TypeArguments="x:String">Seattle</InArgument>
+            <InArgument x:TypeArguments="x:String">New York</InArgument>
             <InArgument x:TypeArguments="x:String">San Francisco</InArgument>
           </scg:List>
         </uasc:BuildCollection.NextItems>
       </uasc:BuildCollection>
-      <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" DisplayName="Build Collection Cities UK" FirstItem="London" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="BuildCollection`1_2" Result="[Cities(&quot;UK&quot;)]">
+      <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" DisplayName="Build Collection Cities UK" FirstItem="London" sap:VirtualizedContainerService.HintSize="616,174.4" sap2010:WorkflowViewState.IdRef="BuildCollection`1_2" Result="[Cities(&quot;UK&quot;)]">
         <uasc:BuildCollection.NextItems>
           <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
             <InArgument x:TypeArguments="x:String">Mancherster</InArgument>
@@ -124,7 +124,7 @@
           </scg:List>
         </uasc:BuildCollection.NextItems>
       </uasc:BuildCollection>
-      <uasc:AppendItemToCollection x:TypeArguments="x:String" Collection="[Cities(&quot;US&quot;)]" DisplayName="Append Items to Collection" sap:VirtualizedContainerService.HintSize="416,173.6" sap2010:WorkflowViewState.IdRef="AppendItemToCollection`1_1">
+      <uasc:AppendItemToCollection x:TypeArguments="x:String" Collection="[Cities(&quot;US&quot;)]" DisplayName="Append Items to Collection" sap:VirtualizedContainerService.HintSize="616,173.6" sap2010:WorkflowViewState.IdRef="AppendItemToCollection`1_1">
         <uasc:AppendItemToCollection.Items>
           <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
             <InArgument x:TypeArguments="x:String">Portland</InArgument>
